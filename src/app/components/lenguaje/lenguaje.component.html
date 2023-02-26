@@ -1,0 +1,52 @@
+<div class="container">
+    <section class="communication" id="communication">
+        <div class="shadow p-md-5 mb-4 rounded bg-light border">
+            <div class="row">
+                <div class="col-md-9">
+                    <h2>Communication Skills</h2>
+                </div>
+                <div class="col-md-1" onclick="cambiar_parrafo()">
+                    <!-- me gustaría que al pasar por arriba con el cursor cambie la imagen -->
+                    <div class="btn-edit">
+                        <a href="#" class="btn-right"><i class="fa fa-plus"></i></a>
+                    </div>
+                </div>
+                <div class="col-md-1" onclick="cambiar_parrafo()">
+                    <!-- me gustaría que al pasar por arriba con el cursor cambie la imagen -->
+                    <div class="btn-edit">
+                        <a href="#" class="btn-right"><i class="fa fa-pen"></i></a>
+                    </div>
+                </div>
+                <div class="col-md-1" onclick="cambiar_parrafo()">
+                    <!-- me gustaría que al pasar por arriba con el cursor cambie la imagen -->
+                    <div class="btn-edit">
+                        <a href="#" class="btn-right"><i class="fa fa-trash"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div>
+                <li *ngFor="let language of languagesList">
+                    <div class="row">
+                        <div class="col-md-10">
+                            <h4>{{language.tongue}}</h4>
+                        </div>
+                        <div class="col-md-1" onclick="cambiar_parrafo()">
+                            <!-- me gustaría que al pasar por arriba con el cursor cambie la imagen -->
+                            <div class="btn-edit">
+                                <a href="#" class="btn-right"><i class="fa fa-pen"></i></a>
+                            </div>
+                        </div>
+                        <div class="col-md-1" onclick="cambiar_parrafo()">
+                            <!-- me gustaría que al pasar por arriba con el cursor cambie la imagen -->
+                            <div class="btn-edit">
+                                <a href="#" class="btn-right"><i class="fa fa-trash"></i></a>
+                            </div>
+                        </div>
+                    </div>    
+                    <p>{{language.level}}</p>
+                </li>
+            </div>
+        </div>
+    </section>
+</div>

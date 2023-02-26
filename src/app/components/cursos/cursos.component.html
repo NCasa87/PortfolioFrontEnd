@@ -1,0 +1,37 @@
+<div class="container">
+    <section class="training" id="training">
+        <div class="shadow p-md-5 mb-4 rounded bg-light border">
+            <div class="row">
+                <div class="col-md-9">
+                    <h2>Relevant Training</h2>
+                </div>
+                <div class="col-md-1" onclick="cambiar_parrafo()">
+                    <!-- me gustaría que al pasar por arriba con el cursor cambie la imagen -->
+                    <div class="btn-edit">
+                        <a href="#" class="btn-right"><i class="fa fa-plus"></i></a>
+                    </div>
+                </div>
+                <div class="col-md-1" onclick="cambiar_parrafo()">
+                    <!-- me gustaría que al pasar por arriba con el cursor cambie la imagen -->
+                    <div class="btn-edit">
+                        <a href="#" class="btn-right"><i class="fa fa-pen"></i></a>
+                    </div>
+                </div>
+                <div class="col-md-1" onclick="cambiar_parrafo()">
+                    <!-- me gustaría que al pasar por arriba con el cursor cambie la imagen -->
+                    <div class="btn-edit">
+                        <a href="#" class="btn-right"><i class="fa fa-trash"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div>
+                <li *ngFor="let cursos of cursosList">
+                    <h4>{{cursos.institution}}</h4> 
+                    <p>{{cursos.title}}</p>
+                    <p><time>{{cursos.timeFrom}}</time> - <time>{{cursos.timeTo}}</time></p>
+                </li>
+            </div>
+        </div>
+    </section>
+</div>

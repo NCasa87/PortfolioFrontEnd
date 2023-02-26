@@ -1,0 +1,68 @@
+{   
+    "profileImage": "https://media.licdn.com/dms/image/C4E03AQGLtWrOOmjpjg/profile-displayphoto-shrink_400_400/0/1637802233920?e=1681344000&amp;v=beta&amp;t=MW55aejJM-iR0imJy829iEpC_s6Fsxx9JZ7Onnj7u1Y",
+    "name": "Nahuel Esteban Casá",
+    "position": "Coordinador de Gestión de Materiales",
+    "company": "Techint Ingeniería y Construcción",
+    "aboutme": "...",
+    "skills": "...",
+
+    "experience": [{
+        "company": "Techint Ingeniería y Construcción",
+        "position": "Coordinador de Materiales",
+        "timeFrom": "06/2018",
+        "timeTo": "Actual",
+        "jobDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam veniam modi ratione exercitationem sapiente cum omnis odio. In dolorem quae officiis ex quidem ut, quis, libero numquam magnam non distinctio? Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam veniam modi ratione exercitationem sapiente cum omnis odio. In dolorem quae officiis ex quidem ut, quis, libero numquam magnam non distinctio?"
+        },
+        {
+        "company": "Instituto Nacional de Techología Industrial",
+        "position": "Process Engineer",
+        "timeFrom": "06/2016",
+        "timeTo": "06/2018",
+        "jobDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam veniam modi ratione exercitationem sapiente cum omnis odio. In dolorem quae officiis ex quidem ut, quis, libero numquam magnam non distinctio? Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam veniam modi ratione exercitationem sapiente cum omnis odio. In dolorem quae officiis ex quidem ut, quis, libero numquam magnam non distinctio?"
+        },
+        {
+        "company": "Instituto Nacional de Techología Industrial",
+        "position": "Laboratory Analyst",
+        "timeFrom": "04/2007",
+        "timeTo": "06/2016",
+        "jobDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam veniam modi ratione exercitationem sapiente cum omnis odio. In dolorem quae officiis ex quidem ut, quis, libero numquam magnam non distinctio? Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam veniam modi ratione exercitationem sapiente cum omnis odio. In dolorem quae officiis ex quidem ut, quis, libero numquam magnam non distinctio?"
+    }],
+
+    "education": [{
+        "school": "Universidad Tecnológica Nacional",
+        "title": "Chemical Engineer",
+        "timeFrom": "04/2007",
+        "timeTo": "05/2016"
+    },
+    {
+        "school": "Universidad Tecnológica Nacional",
+        "title": "Chemical Technician",
+        "timeFrom": "04/2007",
+        "timeTo": "05/2013"
+    }],
+
+    "cursos": [{
+        "institution": "Argentina Programa",
+        "title": "Full Stack Developer Jr",
+        "timeFrom": "10/2022",
+        "timeTo": "05/2023"
+    }],
+
+    "language": [{
+        "tongue": "spanish",
+        "level": "Native"
+    },
+    {
+        "tongue": "english",
+        "level": "C1"
+    },
+    {
+        "tongue": "german",
+        "level": "B1.2"
+    }],
+
+    "assets": [
+        "src/favicon.ico",
+        "src/assets"
+      ]
+}
